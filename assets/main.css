@@ -6,6 +6,9 @@ body {
 body a {
   color: #4E7A9C;
 }
+body a:hover {
+  color: #838E96;
+}
 
 .content {
   margin: 5% 10% 5% 10%;
@@ -19,9 +22,17 @@ body a {
   color: #ADBCC7;
   background-color: #3E4347;
 }
+.work-example .example-title {
+  padding-bottom: 1vh;
+  margin-bottom: 1vh;
+}
 .work-example .tech-used {
   font-style: italic;
   display: block;
+}
+.work-example .link-example-list {
+  padding-inline-start: 0;
+  list-style: none;
 }
 
 /*# sourceMappingURL=main.css.map */
