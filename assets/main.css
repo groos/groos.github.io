@@ -1,7 +1,27 @@
-.tech-used {
-   font-style: italic;
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #ADBCC7;
+  color: #3E4347;
+}
+body a {
+  color: #4E7A9C;
+}
+
+.content {
+  margin: 5% 10% 5% 10%;
 }
 
 .work-example {
-    margin: 5px;
+  margin-top: 3vh;
+  padding: 2%;
+  line-height: 2.5vh;
+  font-weight: bold;
+  color: #ADBCC7;
+  background-color: #3E4347;
 }
+.work-example .tech-used {
+  font-style: italic;
+  display: block;
+}
+
+/*# sourceMappingURL=main.css.map */
